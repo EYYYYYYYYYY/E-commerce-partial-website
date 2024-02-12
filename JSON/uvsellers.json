@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1035,
+        "fname": "Qwerty",
+        "lname": "Qwerty",
+        "email": "qwerty@gmail.com",
+        "number": "093483242",
+        "address": "Sta. Mesa",
+        "businessID": 5,
+        "businessName": "GreenProd",
+        "businessPermit": null,
+        "verification": 0
+    },
+    {
+        "id": 1042,
+        "fname": "Daniel",
+        "lname": "Jack",
+        "email": "jackdaniels@gmail.com",
+        "number": "09991231231",
+        "address": "10 kalachuchi makati st. Manila",
+        "businessID": 12,
+        "businessName": "Lagundi Corp.",
+        "businessPermit": "../Documents/65c310dd9839c-1707282653.jpg",
+        "verification": 0
+    },
+    {
+        "id": 1044,
+        "fname": "Jeanne Ella",
+        "lname": "De Jesus",
+        "email": "ella@gmail.com",
+        "number": "09872634403",
+        "address": "Sta. Mesa",
+        "businessID": 13,
+        "businessName": "Ellastic",
+        "businessPermit": "../Documents/65c31226103e1-1707282982.png",
+        "verification": 0
+    }
+]

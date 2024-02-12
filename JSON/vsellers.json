@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1021,
+        "fname": "Winmark",
+        "lname": "Chan",
+        "email": "winmarkchan@gmail.com",
+        "number": "09918273643",
+        "address": "Quezon City",
+        "businessID": 1,
+        "businessName": "WinGreenery",
+        "businessPermit": null,
+        "verification": 1
+    },
+    {
+        "id": 1023,
+        "fname": "Jun Mark",
+        "lname": "Cabrera",
+        "email": "sample@gmail.com",
+        "number": "123123",
+        "address": "Tandang Sora",
+        "businessID": 2,
+        "businessName": "VegiesLife",
+        "businessPermit": null,
+        "verification": 1
+    },
+    {
+        "id": 1025,
+        "fname": "Juan ",
+        "lname": "Dela Cruz",
+        "email": "juan@gmail.com",
+        "number": "321321",
+        "address": "Visayas",
+        "businessID": 3,
+        "businessName": "Fruitty",
+        "businessPermit": null,
+        "verification": 1
+    },
+    {
+        "id": 1026,
+        "fname": "Kristoffe Bien",
+        "lname": "Montelibano",
+        "email": "kristoffe@gmail.com",
+        "number": "09987364632",
+        "address": "Davao City",
+        "businessID": 4,
+        "businessName": "DavaoFarm",
+        "businessPermit": null,
+        "verification": 1
+    }
+]

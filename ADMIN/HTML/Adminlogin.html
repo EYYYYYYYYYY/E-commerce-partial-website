@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN LOGIN</title>
+    <link rel="stylesheet" href="../../main.css">
+    <script src="../../JS/script.js" defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+   
+    <div class="login-container">
+        <div class="login-logo">
+            <img src="../../Asset/logo_transparent.png" alt="Logo">
+        </div>
+        <H1>ADMIN LOGIN</H1>
+           
+    <form id="loginForm" onsubmit="loginAdmin(event)" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+        
+        <input type="hidden" name="user_type" value="ADM">
+
+        <input type="submit" value="LOGIN">
+    </form>
+    </div>
+</body>
+</html>

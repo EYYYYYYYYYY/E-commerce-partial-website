@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../../main.css">
+    <script src="../../JS/script.js" defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+   
+    <div class="login-container">
+        <div class="back-button" onclick="goBack()" style = "margin-left: -400px; color:black;"><span class="back-icon">&#8592;</span> Back</div>
+        <div class="login-logo">
+            <img src="../../Asset/logo_transparent.png" alt="Logo">
+        </div>
+        <div class="sign">
+        <p>                   </p>
+        </div>    
+        <form id="loginForm" onsubmit="loginSeller(event)" method="post">
+            <div id="loginFormWrapper">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required><br>
+                <p></p>        
+                <label for="password">Password:</label>
+                <input type="password" name="password" required><br>   
+                <input type="hidden" name="user_type" value="SLR">
+                <input type="submit" value="Seller Login"><br><br>
+                <a onclick="openModal()" style="font-size: 13px; color: blue; cursor:pointer;">Forgot Password?</a>
+            </div>
+        </form>
+        
+    
+
+            <div id="changePasswordModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h2>Change Password</h2>
+                    <form id="changePasswordForm" onsubmit="changePassword(event)" method="post">
+                        <label for="Email">Email:</label>
+                        <input type="text" name="Email" required><br>
+
+                        <input type="hidden" name="userType" value="SLR">
+            
+                        <input type="submit" value="Change Password" style="width: 30%;"><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<script>
+     function goBack() {
+                        window.history.back();
+                    }
+    function openModal() {
+        document.getElementById('changePasswordModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('changePasswordModal').style.display = 'none';
+    }
+
+    function changePassword(event) {
+        event.preventDefault();
+        closeModal();
+    }
+    window.onload = function() {
+        closeModal();
+    };
+</script>
+
+</body>
+</html>

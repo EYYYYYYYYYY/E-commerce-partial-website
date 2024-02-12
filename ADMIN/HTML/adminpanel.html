@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/admincss.css">
+</head>
+<body>
+
+    <header>
+        <h1>Admin Page</h1>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showTab('dashboard')">Dashboard</a>
+        <a href="#" onclick="showTab('userTab')">Users</a>
+        <a href="#" onclick="showTab('sellerTab')">Seller</a>
+    </nav>
+	
+	 <p id="adminMessage"><b><center><mark>THIS IS FOR ADMIN ONLY!</mark></center></b></p>
+	
+    <section>
+        <div id="dashboard" class="dashboard-box" style="display: none;">
+            <!-- Welcome Message Box for Admin -->
+            <div class="box">
+                <h2>Welcome ADMIN!</h2>
+            </div>
+            
+            <!-- Users Box -->
+            <div class="box">
+                <h3>Users</h3>
+                <p>Number of Users: N</p>
+            </div>
+
+            <!-- Seller Box -->
+            <div class="box">
+                <h3>Seller</h3>
+                <p>Number of Sellers: N</p>
+            </div>
+
+            <!-- Admin Message -->
+           
+        </div>
+        
+        <div id="userTab" style="display: none;">
+            <h3><center>Users</center></h3>
+            <p><center>Welcome to User tab</center></p>
+            <div id="userTableContainer">
+                <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div id="sellerTab" style="display: none;">
+            <h3><center>Seller</center></h3>
+            <p><center>Welcome to Seller tab</center></p>
+            <div id="userTableContainer">
+                <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="adminjs.js"></script>
+</body>
+</html>

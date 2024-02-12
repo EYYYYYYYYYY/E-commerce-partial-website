@@ -1,0 +1,74 @@
+[
+    {
+        "id": 153,
+        "seller": 1021,
+        "sellername": "WinGreenery",
+        "name": "Dried Mango",
+        "type": "Fruits",
+        "description": "Made from real Mango",
+        "price": 200,
+        "kg": 1000,
+        "avail": "Available",
+        "image": "../../Uploads/65acdb51b1e27-1705827153.jpg"
+    },
+    {
+        "id": 154,
+        "seller": 1021,
+        "sellername": "WinGreenery",
+        "name": "Durian",
+        "type": "Fruits",
+        "description": "Durian",
+        "price": 200,
+        "kg": 200,
+        "avail": "Available",
+        "image": "../../Uploads/65be6b5abdc4d-1706978138.jpg"
+    },
+    {
+        "id": 155,
+        "seller": 1026,
+        "sellername": "DavaoFarm",
+        "name": "Pomelo",
+        "type": "Fruits",
+        "description": "Pomelo",
+        "price": 50,
+        "kg": 50,
+        "avail": "Unavailable",
+        "image": "../../Uploads/65be701a2f126-1706979354.jpg"
+    },
+    {
+        "id": 156,
+        "seller": 1026,
+        "sellername": "DavaoFarm",
+        "name": "Dragonfruit",
+        "type": "Fruits",
+        "description": "Dragonfruit",
+        "price": 100,
+        "kg": 5,
+        "avail": "Available",
+        "image": "../../Uploads/65c1dd67402d7-1707203943.jpg"
+    },
+    {
+        "id": 157,
+        "seller": 1026,
+        "sellername": "DavaoFarm",
+        "name": "Potato",
+        "type": "Vegetables",
+        "description": "Potato",
+        "price": 25,
+        "kg": 50,
+        "avail": "Available",
+        "image": "../../Uploads/65c236719e478-1707226737.png"
+    },
+    {
+        "id": 158,
+        "seller": 1021,
+        "sellername": "WinGreenery",
+        "name": "Kangkong ",
+        "type": "Vegetables",
+        "description": "The product is sold per kilo ",
+        "price": 70,
+        "kg": 15,
+        "avail": "Available",
+        "image": "../../Uploads/65c31a7b0a007-1707285115.jpg"
+    }
+]

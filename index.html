@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="INTERFACES/CSS/LOGIN.css">
+    <script src="JS/script.js" defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <div class="login-container">
+        <div class="login-logo">
+            <img src="Asset/logo_transparent.png" alt="Logo">
+        </div>
+        <h2>LOGIN PAGE</h2>
+        <a class="seller" href="INTERFACES/HTML/Seller.html">SELLER</a>
+        <P>                                </P>
+        <a class="user" href="INTERFACES/HTML/Buyer.html">BUYER</a>
+        <p>_________________________________________</p>
+        <p>Not yet registered?</p>
+        <button class="register" type="button" onclick="showRegistrationModal()">REGISTER</button>
+    </div>
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRegistrationModal()">&times;</span>
+            <h1>REGISTRATION</h1>
+
+            <form id="registrationForm" action="#" method="post">
+                <label for="userType">Select User Type:</label>
+                <select id="userType" name="userType" onchange="toggleSellerFields()">
+                    <option value="SLR">Seller</option>
+                    <option value="BYR">Buyer</option>
+                </select>
+
+                <label for="Fname">First Name:</label>
+                <input type="text" id="FName" name="FName" required>
+
+                <label for="Lname">Last Name:</label>
+                <input type="text" id="LName" name="LName" required>
+
+                <label for="registrationEmail">Email:</label>
+                <input type="email" id="registrationEmail" name="registrationEmail" required>
+
+                <label for="Address">Address:</label>
+                <input type="Address" id="Address" name="Address" required>
+
+                <label for="Cellphone">Cellphone:</label>
+                <input type="Cellphone" id="Cellphone" name="Cellphone" required>
+
+                <div id="sellerFields" style="display: none;">
+                    <div class="form-group">
+                        <label for="businessName">Business Name:</label>
+                        <input type="text" class="form-control" id="businessName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="proofOfRegistration">Proof of Certificate of Registration:</label>
+                        <input type="file" class="form-control-file" id="proofOfRegistration" required>
+                    </div>
+                </div>
+
+                <p>_____________________________________________</p>
+                <h3>Login Information</h3>
+                <label for="registrationUsername">Username:</label>
+                <input type="text" id="registrationUsername" name="registrationUsername" required>
+
+                <label for="registrationPassword">Password:</label>
+                <input type="password" id="registrationPassword" name="registrationPassword" required>
+
+                <label for="registrationConfirmPassword">Confirm Password:</label>
+                <input type="password" id="registrationConfirmPassword" name="registrationConfirmPassword" required>
+                <button type="button" onclick="registerUser(event)">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function toggleSellerFields() {
+            var userType = document.getElementById('userType');
+            var sellerFields = document.getElementById('sellerFields');
+
+            if (userType.value === 'SLR') {
+                sellerFields.style.display = 'block';
+            } else {
+                sellerFields.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>

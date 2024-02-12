@@ -1,0 +1,24 @@
+[
+    {
+        "id": 154,
+        "seller": 1026,
+        "name": "Durian",
+        "type": "Fruits",
+        "description": "Durian",
+        "price": 200,
+        "kg": 200,
+        "avail": "Available",
+        "image": "../Uploads/65be6b5abdc4d-1706978138.jpg"
+    },
+    {
+        "id": 155,
+        "seller": 1026,
+        "name": "Pomelo",
+        "type": "Fruits",
+        "description": "Pomelo",
+        "price": 50,
+        "kg": 50,
+        "avail": "Unavailable",
+        "image": "../Uploads/65be701a2f126-1706979354.jpg"
+    }
+]

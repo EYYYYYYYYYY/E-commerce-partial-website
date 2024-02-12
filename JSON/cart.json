@@ -1,0 +1,22 @@
+[
+    {
+        "customer": 1037,
+        "seller": 1021,
+        "business": "WinGreenery",
+        "id": 154,
+        "name": "Durian",
+        "kg": 1,
+        "price": 200,
+        "image": "../Uploads/65be6b5abdc4d-1706978138.jpg"
+    },
+    {
+        "customer": 1037,
+        "seller": 1026,
+        "business": "DavaoFarm",
+        "id": 155,
+        "name": "Pomelo",
+        "kg": 1,
+        "price": 50,
+        "image": "../Uploads/65be701a2f126-1706979354.jpg"
+    }
+]

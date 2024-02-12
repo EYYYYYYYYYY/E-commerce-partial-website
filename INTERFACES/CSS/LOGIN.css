@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('../../Asset/1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end; /* Align the content to the right */
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    background: linear-gradient(to right, rgba(235, 237, 234, 0.8), rgba(218, 237, 96, 0.8));
+    margin-right: 25px;
+    text-align: center; /* Center the content horizontally */
+    opacity: 1;
+}
+
+
+.login-logo img {
+    max-width: 50%;
+    margin-bottom: auto;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+button {
+    font-size: 20px;
+    padding: 7px;
+    margin: 5px;
+    width: 80%;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+  .seller,
+  .user {
+    display: grid;
+    padding: 15px;
+    text-decoration: none;
+    color: #ffffff; /* text color */
+    background-color: #4CAF50; /* background color */
+    border: 10px rgba(255, 255, 255, 0.8); /* border color */
+    cursor: pointer;
+    border-radius: 120px;
+    margin-right: 10px;
+    text-align: center; 
+  }
+  
+
+  .seller:hover,
+  .user:hover {
+    background-color: #45a049; 
+  }
+ 
+  button.register {
+      font-size: 20px;
+      padding: 7px;
+      margin: 5px;
+      width: 50%;
+      text-align: center; 
+      border-radius: 90px;
+      cursor: pointer;
+      background-color: #6ad126;
+      color: black;
+  }
+  
+  
+ 
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #eaebe9;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px; /* Adjusted maximum width */
+    text-align: center; /* Center text inside the modal */
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

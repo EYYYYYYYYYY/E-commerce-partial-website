@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1022,
+        "fname": "John Conrad",
+        "lname": "Bautista",
+        "email": "example2@gmail.com",
+        "number": "09923456789",
+        "address": "Masinop St."
+    },
+    {
+        "id": 1027,
+        "fname": "Kristoffe Bien",
+        "lname": "Montelibano",
+        "email": "kristoffe@gmail.com",
+        "number": "1234567",
+        "address": "Davao"
+    },
+    {
+        "id": 1028,
+        "fname": "Winmark",
+        "lname": "Chan",
+        "email": "winmarkdchan@iskolarngbayan.pup.edu.ph",
+        "number": "09917040194",
+        "address": "27 Omicron St."
+    },
+    {
+        "id": 1030,
+        "fname": "asfasfaf",
+        "lname": "fsasdfafsf",
+        "email": "asdfasdfad@gmail.com",
+        "number": "35457463413",
+        "address": "ggrqgqrgregqgrg"
+    },
+    {
+        "id": 1031,
+        "fname": "Jun Mark",
+        "lname": "Cabrera",
+        "email": "junmark.cabrera09@gmail.com",
+        "number": "09953533836",
+        "address": "Polaris st"
+    },
+    {
+        "id": 1032,
+        "fname": "SALVACION",
+        "lname": "YANZON",
+        "email": "salvacionyanzon@gmail.com",
+        "number": "09953533836",
+        "address": "19 POLARIS ST"
+    },
+    {
+        "id": 1034,
+        "fname": "KUNKUN",
+        "lname": "KUN",
+        "email": "dalandanilo87@gmail.com",
+        "number": "09953533836",
+        "address": "POLARIS ST"
+    },
+    {
+        "id": 1037,
+        "fname": "Mark",
+        "lname": "Yanzon",
+        "email": "jhonhaze@gmail.com",
+        "number": "09953533836",
+        "address": "19 Polaris st\r\nTandang Sora"
+    },
+    {
+        "id": 1043,
+        "fname": "Daniel",
+        "lname": "Jack",
+        "email": "jackdaniels@gmail.com",
+        "number": "09991231231",
+        "address": "10 kalachuchi makati st. Manila"
+    },
+    {
+        "id": 1046,
+        "fname": "Jeanne Ella",
+        "lname": "De Jesus",
+        "email": "ella@gmail.com",
+        "number": "09872634403",
+        "address": "Sta. Mesa"
+    }
+]
